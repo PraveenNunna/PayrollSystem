@@ -133,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstractions\IPayrollCalulator.cs" />
+    <Compile Include="Abstractions\IPayrollFacade.cs" />
     <Compile Include="Abstractions\IPayrollService.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -147,8 +148,10 @@
     <Compile Include="Implementations\AbstractPayrollCalulator.cs" />
     <Compile Include="Implementations\GermanyPayrollCalculator.cs" />
     <Compile Include="Implementations\ItalyPayrollCalculator.cs" />
+    <Compile Include="Implementations\PayrollFacade.cs" />
     <Compile Include="Implementations\PayrollService.cs" />
     <Compile Include="Implementations\SpainPayrollCalculator.cs" />
+    <Compile Include="Implementations\UnsupportedCountryPayrollCalculator.cs" />
     <Compile Include="Models\Salary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
