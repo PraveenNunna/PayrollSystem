@@ -116,6 +116,7 @@
   <ItemGroup>
     <Compile Include="ImplementationTests\GermanyPayrollServiceTests.cs" />
     <Compile Include="ImplementationTests\ItalyPayrollServiceTests.cs" />
+    <Compile Include="ImplementationTests\PayrollServiceTests.cs" />
     <Compile Include="ImplementationTests\SpainPayrollServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
