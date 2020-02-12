@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PayrollSystem.Models;
 
 namespace PayrollSystem.Abstractions
 {
-    interface IPayrollService
+    public interface IPayrollService
     {
+        Salary CalculatePay(string countryCode, double hoursWorked, double hourlyRate);
     }
 }
