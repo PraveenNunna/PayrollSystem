@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollSystem", "PayrollSystem\PayrollSystem.csproj", "{E0155D54-A3FE-4BA2-93BC-EB72C92FD276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollSystem.Tests", "PayrollSystem.Tests\PayrollSystem.Tests.csproj", "{D1FFEEDE-BF15-4C12-A7BF-FE3ABA275D57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0155D54-A3FE-4BA2-93BC-EB72C92FD276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0155D54-A3FE-4BA2-93BC-EB72C92FD276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0155D54-A3FE-4BA2-93BC-EB72C92FD276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0155D54-A3FE-4BA2-93BC-EB72C92FD276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FFEEDE-BF15-4C12-A7BF-FE3ABA275D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FFEEDE-BF15-4C12-A7BF-FE3ABA275D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FFEEDE-BF15-4C12-A7BF-FE3ABA275D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FFEEDE-BF15-4C12-A7BF-FE3ABA275D57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {156317E4-B296-4FB7-B256-A1DA6FDD8EE3}
+	EndGlobalSection
+EndGlobal
