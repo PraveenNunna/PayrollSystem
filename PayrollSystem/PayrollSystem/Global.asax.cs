@@ -1,4 +1,6 @@
-﻿using PayrollSystem.App_Start;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
+using PayrollSystem.App_Start;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -13,6 +15,11 @@ namespace PayrollSystem
         {
             //StuctureMap config.
             GlobalConfiguration.Configuration.UseStructureMap<StructureMapRegistry>();
+
+            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings = new JsonSerializerSettings
+            {
+                ContractResolver = new CamelCasePropertyNamesContractResolver()
+            };
 
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
