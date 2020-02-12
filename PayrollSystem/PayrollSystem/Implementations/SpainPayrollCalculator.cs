@@ -36,6 +36,7 @@ namespace PayrollSystem.Implementations
             };
         }
 
+        //TODO: refactor this to extract a general progressive tax calc.
         private double CalculateSocialCharge(double grossSalary)
         {
             var baseTaxPercentage = 0.07;

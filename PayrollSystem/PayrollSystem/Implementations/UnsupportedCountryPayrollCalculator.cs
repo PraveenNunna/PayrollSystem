@@ -7,7 +7,7 @@ namespace PayrollSystem.Implementations
     {
         public override Salary CalculateSalary(double HoursWorked, double HourlyRate)
         {
-            throw new System.Exception("Provided Country not supported");
+            throw new System.Exception("Provided Country not supported. Supported countries are DEU(Germany),SPA(Spain),ITA(Italy)");
         }
     }
 }
